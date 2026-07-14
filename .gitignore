@@ -1,0 +1,22 @@
+# No subir credenciales, tokens ni captures con datos sensibles
+*.key
+*.pem
+*.env
+*.credentials
+creds/
+secrets/
+
+# Capturas de pantalla (si contienen información sensible, revisar antes)
+assets/screenshots/*.png
+assets/screenshots/*.jpg
+
+# Logs
+*.log
+nmap-output/
+
+# Archivos temporales
+__pycache__/
+*.pyc
+.venv/
+*.swp
+.DS_Store
