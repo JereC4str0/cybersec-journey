@@ -53,8 +53,9 @@
 - VulnHub: máquina fácil tipo RickdiculouslyEasy o Mr. Robot.
 - **Documentar:** Primer writeup completo en `labs/vulnhub/`.
 
-### Semana 7 — Consolidación Web + Máquina HTB fácil
+### Semana 7 — Consolidación Web + API testing + Máquina HTB fácil
 - Resolver 1 máquina “Easy” de HackTheBox (gratuita).
+- PortSwigger: labs de API testing (recon de endpoints, métodos HTTP, mass assignment). Las APIs son hoy el vector dominante en aplicaciones reales.
 - Completar reporte de la máquina con metodología.
 - **Proyecto:** Web fuzzer/dirbuster en Python, versión 1.0.
 
@@ -67,21 +68,23 @@
 ### Semana 8 — Windows para Pentesters
 - Estructura de Windows, SAM/LSASS, usuarios/grupos, UAC, firewall.
 - PowerShell básico para pentesting.
-- Herramientas: impacket, crackmapexec, evil-winrm.
+- Herramientas: impacket, NetExec (`nxc`, sucesor mantenido de CrackMapExec, que está archivado desde 2023), evil-winrm.
 
 ### Semana 9 — Enumeración de AD
 - BloodHound CE (gratuito), SharpHound.
--Enumeración con ldapdomaindump, enum4linux-ng, rpcclient.
+- Enumeración con ldapdomaindump, enum4linux-ng, rpcclient.
 - **Documentar:** Notas en `notes/05-active-directory/`.
 
 ### Semana 10 — Ataques de AD clásicos
 - Kerberoasting, AS-REP Roasting, LLMNR/NBT-NS poisoning con Responder.
+- AD CS (Active Directory Certificate Services): enumeración y abuso con Certipy (ESC1-ESC8). Hoy es uno de los vectores más explotados en entornos corporativos reales.
+- Coerción de autenticación (PetitPotam/PrinterBug con Coercer) y NTLM relay moderno (krbrelayx).
 - Pass-the-Hash, Pass-the-Ticket.
 - Labs gratuitos de AD en TryHackMe: “Active Directory Basics”, “Active Directory Enumeration & Attacks”.
 
 ### Semana 11 — Lateral Movement + Persistencia
 - WMI, PsExec, scheduled tasks, remote services.
-- Persistencia básica:Golden/Silver ticket (concepto), ACL abuse.
+- Persistencia básica: Golden/Silver ticket (concepto), ACL abuse.
 - **Script:** Wrapper de impacket para automatizar enumeración.
 
 ### Semana 12 — Máquina de AD gratuita
@@ -109,7 +112,7 @@
 - Pivoting básico con SSH tunneling y ligolo-ng (gratuito).
 
 ### Semana 16 — C2 y Report Writing
-- Instalar y probar un C2 gratuito: Havoc o Sliver (Sliver es open source y muy activo).
+- Instalar y probar un C2 open source: Sliver (muy activo, commits semanales) o Mythic. Havoc está archivado: conocerlo está bien, pero no conviene apostar a tooling sin mantenimiento.
 - Práctica: generar payload, ejecutar en lab, capturar sesión.
 - **Documentar:** Template de reporte de pentesting.
 
@@ -120,6 +123,8 @@
 **Objetivo:** Acumular evidencia y pulir herramientas propias.
 
 - Resolver 1-2 máquinas por semana de HTB/VulnHub/Proving Grounds Play.
+- Fundamentos de cloud security: flAWS.cloud y CloudGoat (AWS, gratis). Los entornos híbridos cloud/on-prem son el default en 2026.
+- Opcional (stretch): labs de LLM security de PortSwigger, por si te interesa el nicho de AI red teaming.
 - Mejorar scripts: web fuzzer, port scanner, enumerador de AD.
 - Crear un **generador de reportes** en Markdown/HTML para tus writeups.
 - Empezar a publicar writeups (puedes mantenerlos en este repo).
@@ -146,6 +151,9 @@
 - [ ] 30+ labs de PortSwigger resueltos
 - [ ] 10+ máquinas vulnerable resueltas con writeups
 - [ ] 1 máquina/lab de AD completo documentado
+- [ ] 1 ataque de AD CS documentado (Certipy)
+- [ ] 1 lab de API testing documentado
+- [ ] flAWS.cloud completado (cloud básico)
 - [ ] Cheatsheets de Linux PE, Windows PE, AD, Web
 - [ ] Generador de reportes de pentesting
 - [ ] 2-3 posts/blog explicando técnicas
@@ -160,7 +168,8 @@
 | Web | PortSwigger, DVWA, bWAPP, Web Security Academy |
 | AD | TryHackMe AD rooms, VulnHub AD labs, BloodHound CE docs, impacket docs |
 | PE | HackTricks PE sections, GTFOBins, PayloadsAllTheThings |
-| C2 | Sliver, Havoc, Metasploit (gratuito) |
+| C2 | Sliver, Mythic, Metasploit (gratuito) |
+| Cloud | flAWS.cloud, CloudGoat, HackTricks Cloud |
 | Job prep | LinkedIn, comunidades, simulacros con ChatGPT/Hermes |
 
 ---
@@ -171,3 +180,4 @@
 - **Aprende haciendo:** cada semana debe terminar con algo concreto: un script, un writeup o una máquina.
 - **Documenta todo:** la documentación es parte del trabajo del pentester.
 - **Sé ético:** todos los labs deben hacerse en entornos autorizados o de práctica.
+- **Pensá como atacante, documentá como defensor:** por cada técnica, anotá cómo se detecta y cómo se mitiga. Eso es lo que diferencia un writeup de un reporte profesional.
