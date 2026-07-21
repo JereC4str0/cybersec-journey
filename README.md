@@ -6,10 +6,12 @@
 
 - Experiencia como desarrollador (base sólida en código, debugging, automatización).
 - Conocimiento previo de Linux.
-- Disponibilidad: ~4-5 horas de estudio por día.
-- Presupuesto para certificaciones: $0 (por ahora).
+- Disponibilidad actual: alta; progreso por bloques de dominio y entregables, no por calendario fijo.
+- Presupuesto para certificaciones: $0 (por ahora); la evidencia pública del repo reemplaza certificaciones como señal inicial.
 
 ## Roadmap general
+
+> Actual: ver `roadmap/` para progreso por bloques de dominio y entregables públicos. La tabla siguiente queda como referencia legacy por semanas.
 
 | Fase | Semanas | Enfoque | Evidencia clave |
 |------|---------|---------|-----------------|
@@ -22,7 +24,8 @@
 
 ## Cómo uso este repositorio
 
-- `plan/`: plan de estudios detallado por semana.
+- `roadmap/`: plan actual por bloques de dominio y entregables públicos.
+- `plan/`: plan legacy por semanas, mantenido como referencia histórica.
 - `notes/`: notas teóricas organizadas por tema.
 - `labs/`: writeups y evidencia de máquinas/CTFs resueltos.
 - `scripts/`: herramientas y scripts que voy creando para practicar.
