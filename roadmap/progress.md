@@ -4,11 +4,14 @@
 
 ## Estado actual
 
-- Bloque actual sugerido: **01 — Linux y Git para trabajo de seguridad** + arranque de **03 — Python desde 0 para security tooling**.
+- Bloque actual sugerido: **02 — Networking para pentesting**.
+- Sesiones de mentoría:
+  - `roadmap/sessions/001-inicio-evidencia-python.md` — scaffold provisto; micro-cambios en pausa.
+  - `roadmap/sessions/002-networking-nmap.md` — ACTIVA.
 - Evidencia ya existente:
   - [x] OverTheWire Bandit 0-32: `labs/overthewire/bandit/`
-  - [ ] Port scanner v1.0 pendiente.
-  - [ ] Notas de networking pendientes.
+  - [x] Scaffold inicial de port scanner provisto por mentoría: `scripts/port-scanner/`
+  - [ ] Notas de networking pendientes (sesión 002).
   - [ ] Primer writeup de máquina vulnerable pendiente.
 
 ## Checklist de bloques
