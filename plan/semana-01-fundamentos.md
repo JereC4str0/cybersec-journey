@@ -21,7 +21,7 @@
 - [RFC 793: TCP](https://tools.ietf.org/html/rfc793) (resumen básico nada más).
 
 ### Práctica (2.5h)
-- [ ] Completar OverTheWire Bandit niveles 0-10.
+- [x] Completar OverTheWire Bandit niveles 0-10.
 - [ ] Familiarizarte con: `ssh`, `ls`, `cat`, `find`, `grep`, `file`, `strings`, `base64`, `tr`.
 
 ### Documentación (1h)
@@ -44,7 +44,7 @@
 - [How DNS Works](https://howdns.works/)
 
 ### Práctica (2.5h)
-- [ ] Completar OverTheWire Bandit niveles 11-20.
+- [x] Completar OverTheWire Bandit niveles 11-20.
 - [ ] Usar `nslookup`, `dig`, `host` para resolver dominios.
 - [ ] Primeros pasos con Nmap: `nmap -sT`, `nmap -sV`, `nmap -sC`.
 
@@ -71,7 +71,7 @@
 ### Práctica (2.5h)
 - [ ] Escanear una máquina VulnHub local o tu router local (con autorización).
 - [ ] Experimentar con: `-p-`, `-sV`, `-sC`, `-O`, `-A`, `--script vuln`.
-- [ ] Completar Bandit 21-27 si no lo hiciste.
+- [x] Completar Bandit 21-27 si no lo hiciste.
 
 ### Documentación (1h)
 - [ ] Actualizar `cheatsheets/nmap.md` con comandos aprendidos.
@@ -160,7 +160,7 @@
 - [Ippsec](https://www.youtube.com/c/ippsec) (ver un video de máquina easy)
 
 ### Práctica (2h)
-- [ ] Resolver los últimos niveles de Bandit si quedaron pendientes.
+- [x] Resolver los últimos niveles de Bandit si quedaron pendientes.
 - [ ] Hacer un último test del port scanner.
 - [ ] Commit y push de todo al repo.
 
@@ -176,13 +176,13 @@
 
 ## Checklist de entregables de la semana
 
-- [ ] OverTheWire Bandit completado (niveles 0-27 aprox).
+- [x] OverTheWire Bandit completado (niveles 0-32, incluye los niveles extra más allá del 27).
 - [ ] Notas de networking: OSI, TCP/IP, DNS, HTTP, Nmap.
 - [ ] `cheatsheets/nmap.md` actualizado.
 - [ ] `scripts/port-scanner/portscanner.py` funcional.
 - [ ] `scripts/port-scanner/README.md` con uso y ejemplos.
 - [ ] Tests básicos en `scripts/port-scanner/tests/`.
-- [ ] `labs/overthewire/bandit-writeup.md` con tus soluciones y aprendizajes.
+- [x] Writeups de Bandit en `labs/overthewire/bandit/` (un archivo por nivel + README resumen).
 - [ ] `labs/tracking.md` actualizado.
 - [ ] Todo commiteado y pusheado a GitHub.
 

@@ -53,9 +53,9 @@
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - [HackTricks](https://book.hacktricks.xyz)
 
-## Estado actual
+## Estado actual (actualizado 2026-07-20)
 
-- [ ] Semana 1 en progreso
-- [ ] Port scanner v1.0
+- [x] OverTheWire Bandit completo (niveles 0-32) con writeups por nivel
+- [ ] Semana 1 en progreso (falta: port scanner v1.0 + notas de networking)
 - [ ] Primer writeup de máquina vulnerable
 
