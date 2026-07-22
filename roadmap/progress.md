@@ -4,11 +4,12 @@
 
 ## Estado actual
 
-- Bloque actual sugerido: **02 — Networking para pentesting**.
+- Bloque actual sugerido: **05 — Metodología (primera máquina: Kioptrix L1)**.
+- Bloque 02 (Networking): exit gate completa el 2026-07-21 (notas 01-04).
 - Sesiones de mentoría:
   - `roadmap/sessions/001-inicio-evidencia-python.md` — scaffold provisto; micro-cambios en pausa.
-  - `roadmap/sessions/002-networking-nmap.md` — notas 01-03 listas; falta NSE.
-  - `roadmap/sessions/003-nse-primera-maquina.md` — ACTIVA.
+  - `roadmap/sessions/002-networking-nmap.md` — completa (notas 01-04).
+  - `roadmap/sessions/003-nse-primera-maquina.md` — ACTIVA (Parte A hecha; Parte B: lab Kioptrix).
 - Evidencia ya existente:
   - [x] OverTheWire Bandit 0-32: `labs/overthewire/bandit/`
   - [x] Scaffold inicial de port scanner provisto por mentoría: `scripts/port-scanner/`
@@ -19,7 +20,7 @@
 
 - [ ] Bloque 00 — Sistema de evidencia pública
 - [ ] Bloque 01 — Linux y Git para trabajo de seguridad
-- [ ] Bloque 02 — Networking para pentesting
+- [x] Bloque 02 — Networking para pentesting (exit gate 2026-07-21: notas 01-04, cheatsheet nmap)
 - [ ] Bloque 03 — Python desde 0 para security tooling
 - [ ] Bloque 04 — Web security y API testing
 - [ ] Bloque 05 — Metodología, vulnerability assessment y reportes
