@@ -55,6 +55,53 @@ Bonus observado: el log del servidor Python registró las peticiones de
 Nmap (`OPTIONS / HTTP/1.1`, `GET / HTTP/1.0`, `GET / HTTP/1.1`) —
 evidencia de que NSE genera tráfico detectable del lado del objetivo.
 
+### Segunda evidencia: `ssh2-enum-algos` contra OpenSSH propio
+
+```
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh2-enum-algos:
+|   kex_algorithms: (10)
+|       mlkem768x25519-sha256
+|       sntrup761x25519-sha512
+|       curve25519-sha256
+|       ecdh-sha2-nistp256 ...
+|   server_host_key_algorithms: (4)
+|       rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+|   encryption_algorithms: (6)
+|       chacha20-poly1305@openssh.com, aes128-gcm@openssh.com,
+|       aes256-gcm@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr
+|   mac_algorithms: (10)
+|       ...-etm@openssh.com (preferidos), hmac-sha2-*, hmac-sha1
+|   compression_algorithms: (2)
+|_      none, zlib@openssh.com
+```
+
+**Análisis de auditoría: configuración FUERTE. Sin hallazgos.**
+
+- **KEX**: ofrece `mlkem768x25519-sha256` y `sntrup761x25519-sha512` —
+  intercambio de claves **post-cuántico** (híbrido). OpenSSH moderno.
+  `curve25519` y `ecdh-sha2` también presentes. Todo aceptable.
+- **Host key**: `rsa-sha2-*` (SHA-2), `ecdsa`, `ed25519`. NO ofrece el
+  deprecado `ssh-rsa` (SHA-1). Correcto.
+- **Cifrado**: solo AEAD (`chacha20-poly1305`, `aes-gcm`) y `aes-ctr`.
+  NO hay CBC. Correcto.
+- **MAC**: variantes `-etm` (encrypt-then-mac) listadas primero — el
+  orden importa: el server las prefiere. `hmac-sha1` está disponible
+  como fallback → observación menor, no hallazgo (solo se usa si el
+  cliente lo negocia).
+- **Compresión**: `none` primero. Correcto (la compresión en SSH puede
+  facilitar fugas de información tipo CRIME).
+
+**Lección clave:** un output de enum también se reporta cuando NO hay
+problemas. En un informe real esto sería "SSH hardening verificado —
+algoritmos modernos, sin deprecated". Un auditor que solo reporta
+problemas y no verifica fortalezas da una imagen incompleta del riesgo.
+
+**Cómo se vería una config DÉBIL (para comparar):** `diffie-hellman-group1-sha1`
+(768-bit, roto), `ssh-rsa` solo, cifrados `*-cbc`, `3des-cbc`, MACs
+`-md5`. Contra una VM vieja (como Kioptrix) esperá ver exactamente eso.
+
 ## Por qué le importa a un pentester
 
 - **Version disclosure** (`http-server-header`): conocer software+versión
