@@ -4,12 +4,18 @@
 > campo `freeToUse` / mensaje "The room is subscriber only.").
 > 10 de 34 rooms son gratuitas. Las bloqueadas se cubren con PortSwigger Academy (100% gratis).
 
+## Progreso
+
+| Fecha | Room | Writeup |
+|---|---|---|
+| 2026-07-24 | ✅ Enumeration & Brute Force | labs/tryhackme/enumeration-bruteforce.md |
+
 ## Mapa FREE / LOCK por módulo
 
 ### 1. Authentication
 | Estado | Room | URL |
 |---|---|---|
-| FREE | Enumeration & Brute Force | https://tryhackme.com/room/enumerationbruteforce |
+| ✅ FREE (hecha) | Enumeration & Brute Force | https://tryhackme.com/room/enumerationbruteforce |
 | LOCK | Session Management | https://tryhackme.com/room/sessionmanagement |
 | LOCK | JWT Security | https://tryhackme.com/room/jwtsecurity |
 | LOCK | OAuth Vulnerabilities | https://tryhackme.com/room/oauthvulnerabilities |
