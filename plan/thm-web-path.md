@@ -9,6 +9,7 @@
 | Fecha | Room | Writeup |
 |---|---|---|
 | 2026-07-24 | ✅ Enumeration & Brute Force | labs/tryhackme/enumeration-bruteforce.md |
+| 2026-07-28 | ✅ CSRF | labs/tryhackme/csrf.md |
 
 ## Mapa FREE / LOCK por módulo
 
