@@ -27,6 +27,7 @@
     - [x] TryHackMe — Enumeration & Brute Force (`labs/tryhackme/enumeration-bruteforce.md`)
     - [x] TryHackMe — CSRF (`labs/tryhackme/csrf.md`)
     - [x] TryHackMe — XSS (`labs/tryhackme/xss.md` + `notes/06-web-security/01-xss-fundamentos.md`)
+    - [x] TryHackMe — Advanced SQL Injection (`labs/tryhackme/advanced-sql-injection.md`)
 - [ ] Bloque 05 — Metodología, vulnerability assessment y reportes
 - [ ] Bloque 06 — Privilege escalation Linux/Windows
 - [ ] Bloque 07 — Active Directory e internal pentesting
