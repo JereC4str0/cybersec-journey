@@ -1,0 +1,200 @@
+- generic [active] [ref=f28e1]:
+  - banner [ref=f28e2]:
+    - generic [ref=f28e3]:
+      - generic [ref=f28e4]: 🆕 The new HTB Certified Offensive AI Expert (HTB COAE) is officially here!
+      - link "Learn More" [ref=f28e5] [cursor=pointer]:
+        - /url: https://academy.hackthebox.com/news/the-new-htb-certified-offensive-ai-expert-htb-coae-is-officially-here
+    - navigation [ref=f28e9]:
+      - link [ref=f28e10] [cursor=pointer]:
+        - /url: https://academy.hackthebox.com
+        - img "HTB Academy Logo" [ref=f28e11]
+      - button "Toggle navigation" [ref=f28e12] [cursor=pointer]
+  - generic [ref=f28e16]:
+    - heading "HTB Certifications" [level=1] [ref=f28e18]
+    - paragraph [ref=f28e20]: HTB Academy's hands-on certifications are designed to provide job proficiency on various cybersecurity roles. As ensured by up-to-date training material, rigorous certification processes and real-world exam lab environments, HTB certified individuals will possess deep technical competency in different cybersecurity domains.
+  - generic [ref=f28e22]:
+    - generic [ref=f28e23]:
+      - generic [ref=f28e24]:
+        - generic [ref=f28e25]:
+          - img "HTB Certified Junior Cybersecurity Associate" [ref=f28e26]
+          - heading "HTB Certified" [level=3] [ref=f28e27]
+          - heading "Junior Cybersecurity Associate" [level=2] [ref=f28e28]
+          - generic [ref=f28e29]:
+            - button [ref=f28e30] [cursor=pointer]:
+              - link "Learn More" [ref=f28e31]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-junior-cybersecurity-associate
+            - generic [ref=f28e32]:
+              - paragraph [ref=f28e33]: Get certified for
+              - paragraph [ref=f28e34]: $490
+        - paragraph [ref=f28e36]: HTB Certified Junior Cybersecurity Associate (HTB CJCA) is a highly hands-on certification that assesses the candidates’ cybersecurity assessment skills. HTB Certified Junior Cybersecurity Associate holders demonstrate foundational technical competency across both offensive and defensive cybersecurity domains. They are equipped to identify common vulnerabilities, perform basic (post-)exploitation, and recognize potential security gaps. They are also capable of conducting SIEM-assisted security monitoring, analyzing network traffic and logs, and detecting intrusions. With hands-on experience in these areas and a hybrid skill set, they can assess and report on security issues in enterprise environments.
+      - generic [ref=f28e37]:
+        - paragraph [ref=f28e39]:
+          - text: Related Job Role Path
+          - link "Junior Cybersecurity Analyst" [ref=f28e40] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/junior-cybersecurity-analyst
+        - paragraph [ref=f28e44]: Covers 20 Modules
+        - paragraph [ref=f28e46]: Exam Vouchers Required 1 Voucher
+    - generic [ref=f28e47]:
+      - generic [ref=f28e48]:
+        - generic [ref=f28e49]:
+          - img "HTB Certified Penetration Testing Specialist" [ref=f28e50]
+          - heading "HTB Certified" [level=3] [ref=f28e51]
+          - heading "Penetration Testing Specialist" [level=2] [ref=f28e52]
+          - generic [ref=f28e53]:
+            - button [ref=f28e54] [cursor=pointer]:
+              - link "Learn More" [ref=f28e55]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist
+            - generic [ref=f28e56]:
+              - paragraph [ref=f28e57]: Get certified for
+              - paragraph [ref=f28e58]: $490
+        - paragraph [ref=f28e60]: HTB Certified Penetration Testing Specialist (HTB CPTS) is a highly hands-on certification that assesses the candidates’ penetration testing skills. HTB Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will also be able to assess the risk at which an infrastructure is exposed and compose a commercial-grade as well as actionable report.
+      - generic [ref=f28e61]:
+        - paragraph [ref=f28e63]:
+          - text: Related Job Role Path
+          - link "Penetration Tester" [ref=f28e64] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/penetration-tester
+        - paragraph [ref=f28e68]: Covers 28 Modules
+        - paragraph [ref=f28e70]: Exam Vouchers Required 1 Voucher
+    - generic [ref=f28e71]:
+      - generic [ref=f28e72]:
+        - generic [ref=f28e73]:
+          - img "HTB Certified Web Exploitation Specialist" [ref=f28e74]
+          - heading "HTB Certified" [level=3] [ref=f28e75]
+          - heading "Web Exploitation Specialist" [level=2] [ref=f28e76]
+          - generic [ref=f28e77]:
+            - button [ref=f28e78] [cursor=pointer]:
+              - link "Learn More" [ref=f28e79]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist
+            - generic [ref=f28e80]:
+              - paragraph [ref=f28e81]: Get certified for
+              - paragraph [ref=f28e82]: $490
+        - paragraph [ref=f28e84]: HTB Certified Web Exploitation Specialist (HTB CWES) is a highly hands-on certification that assesses the candidates’ web application pentesting and bug bounty hunting skills. HTB Certified Web Exploitation Specialist certification holders will possess technical competency in the web application penetration testing and bug bounty hunting domains at an intermediate level. They will also be able to assess the risk at which a web application, service, or API is exposed and compose a commercial-grade as well as actionable report.
+      - generic [ref=f28e85]:
+        - paragraph [ref=f28e87]:
+          - text: Related Job Role Path
+          - link "Web Penetration Tester" [ref=f28e88] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/web-penetration-tester
+        - paragraph [ref=f28e92]: Covers 20 Modules
+        - paragraph [ref=f28e94]: Exam Vouchers Required 1 Voucher
+    - generic [ref=f28e95]:
+      - generic [ref=f28e96]:
+        - generic [ref=f28e97]:
+          - img "HTB Certified Defensive Security Analyst" [ref=f28e98]
+          - heading "HTB Certified" [level=3] [ref=f28e99]
+          - heading "Defensive Security Analyst" [level=2] [ref=f28e100]
+          - generic [ref=f28e101]:
+            - button [ref=f28e102] [cursor=pointer]:
+              - link "Learn More" [ref=f28e103]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst
+            - generic [ref=f28e104]:
+              - paragraph [ref=f28e105]: Get certified for
+              - paragraph [ref=f28e106]: $490
+        - paragraph [ref=f28e108]: HTB Certified Defensive Security Analyst (HTB CDSA) is a highly hands-on certification that assesses the candidates’ security analysis, SOC operations, and incident handling skills. HTB Certified Defensive Security Analyst (HTB CDSA) certification holders will possess technical competency in the security analysis, SOC operations, and incident handling domains at an intermediate level. They will be able to spot security incidents and identify avenues of detection that may not be immediately apparent from simply looking at the available data. They will also excel at thinking outside the box, correlating disparate pieces of data, pivoting relentlessly to determine the maximum impact of an incident, and creating actionable security incident reports.
+      - generic [ref=f28e109]:
+        - paragraph [ref=f28e111]:
+          - text: Related Job Role Path
+          - link "SOC Analyst" [ref=f28e112] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/soc-analyst
+        - paragraph [ref=f28e116]: Covers 15 Modules
+        - paragraph [ref=f28e118]: Exam Vouchers Required 1 Voucher
+    - generic [ref=f28e119]:
+      - generic [ref=f28e120]:
+        - generic [ref=f28e121]:
+          - img "HTB Certified Web Exploitation Expert" [ref=f28e122]
+          - heading "HTB Certified" [level=3] [ref=f28e123]
+          - heading "Web Exploitation Expert" [level=2] [ref=f28e124]
+          - generic [ref=f28e125]:
+            - button [ref=f28e126] [cursor=pointer]:
+              - link "Learn More" [ref=f28e127]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert
+            - generic [ref=f28e128]:
+              - paragraph [ref=f28e129]: Get certified for
+              - paragraph [ref=f28e130]: $1260
+        - paragraph [ref=f28e132]: HTB Certified Web Exploitation Expert (HTB CWEE) is a highly hands-on certification that assesses candidates' skills in identifying advanced and hard-to-find web vulnerabilities using both black box and white box techniques. HTB CWEE certification holders will possess technical competency in the web security, web penetration testing, and secure coding domains at an advanced level and be well-versed in the application debugging, source code review, and custom exploit development aspects of web security testing. They will also be able to professionally conduct web penetration tests against modern and highly secure web applications, as well as report vulnerabilities found in code or arising from logical errors.
+      - generic [ref=f28e133]:
+        - paragraph [ref=f28e135]:
+          - text: Related Job Role Path
+          - link "Senior Web Penetration Tester" [ref=f28e136] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/senior-web-penetration-tester
+        - paragraph [ref=f28e140]: Covers 15 Modules
+        - paragraph [ref=f28e142]: Exam Vouchers Required 1 Voucher
+    - generic [ref=f28e143]:
+      - generic [ref=f28e144]:
+        - generic [ref=f28e145]:
+          - img "HTB Certified Active Directory Pentesting Expert" [ref=f28e146]
+          - heading "HTB Certified" [level=3] [ref=f28e147]
+          - heading "Active Directory Pentesting Expert" [level=2] [ref=f28e148]
+          - generic [ref=f28e149]:
+            - button [ref=f28e150] [cursor=pointer]:
+              - link "Learn More" [ref=f28e151]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-active-directory-pentesting-expert
+            - generic [ref=f28e152]:
+              - paragraph [ref=f28e153]: Get certified for
+              - paragraph [ref=f28e154]: $1260
+        - paragraph [ref=f28e156]: HTB Certified Active Directory Pentesting Expert (HTB CAPE) is a highly hands-on certification assessing candidates' skills in identifying and exploiting advanced Active Directory (AD) vulnerabilities. HTB CAPE certification holders will possess technical competency in both internal and external AD and Windows penetration testing, understanding complex attack paths, and employing advanced techniques to exploit them. HTB CAPE certification holders will demonstrate proficiency in executing sophisticated attacks abusing different authentication protocols such as Kerberos and NTLM and abusing misconfigurations within AD components such as ADCS, WSUS, Exchange, and Domain Trusts. Furthermore, they will be adept at leveraging specialized tools to exploit AD from Linux and Windows and utilizing Command and Control (C2) frameworks for post-exploitation operations.
+      - generic [ref=f28e157]:
+        - paragraph [ref=f28e159]:
+          - text: Related Job Role Path
+          - link "Active Directory Penetration Tester" [ref=f28e160] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/active-directory-penetration-tester
+        - paragraph [ref=f28e164]: Covers 15 Modules
+        - paragraph [ref=f28e166]: Exam Vouchers Required 1 Voucher
+    - generic [ref=f28e167]:
+      - generic [ref=f28e168]:
+        - generic [ref=f28e169]:
+          - img "HTB Certified Wi-Fi Pentesting Expert" [ref=f28e170]
+          - heading "HTB Certified" [level=3] [ref=f28e171]
+          - heading "Wi-Fi Pentesting Expert" [level=2] [ref=f28e172]
+          - generic [ref=f28e173]:
+            - button [ref=f28e174] [cursor=pointer]:
+              - link "Learn More" [ref=f28e175]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-wi-fi-pentesting-expert
+            - generic [ref=f28e176]:
+              - paragraph [ref=f28e177]: Get certified for
+              - paragraph [ref=f28e178]: $1260
+        - paragraph [ref=f28e180]: The HTB Certified Wi-Fi Pentesting Expert (HTB CWPE) is designed for professionals seeking to master real-world Wi-Fi exploitation. Through a rigorous, hands-on assessment, candidates demonstrate their ability to attack and compromise wireless networks across all major protocols, including WPA3 and WPA-Enterprise. HTB CWPE certified experts are skilled in deploying rogue access points, harvesting credentials, bypassing captive portals, exploiting routers and leveraging advanced tools to penetrate even hardened enterprise wireless environments. Using industry standard tools such as Airgeddon, Eaphammer, Kismet, Wifipumpkin3, Bettercap, and Aircrack-ng, candidates learn to exploit vulnerabilities across WEP, WPA, WPA2, WPA3, and WPA-Enterprise networks. Beyond wireless compromise, CWPE professionals are also capable of pivoting into internal networks and gaining an initial Active Directory foothold by exploiting weaknesses in enterprise Wi-Fi networks.
+      - generic [ref=f28e181]:
+        - paragraph [ref=f28e183]:
+          - text: Related Job Role Path
+          - link "Wi-Fi Penetration Tester" [ref=f28e184] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/wi-fi-penetration-tester
+        - paragraph [ref=f28e188]: Covers 10 Modules
+        - paragraph [ref=f28e190]: Exam Vouchers Required 1 Voucher
+    - generic [ref=f28e191]:
+      - generic [ref=f28e192]:
+        - generic [ref=f28e193]:
+          - img "HTB Certified Offensive AI Expert" [ref=f28e194]
+          - heading "HTB Certified" [level=3] [ref=f28e195]
+          - heading "Offensive AI Expert" [level=2] [ref=f28e196]
+          - generic [ref=f28e197]:
+            - button [ref=f28e198] [cursor=pointer]:
+              - link "Learn More" [ref=f28e199]:
+                - /url: https://academy.hackthebox.com/preview/certifications/htb-certified-offensive-ai-expert
+            - generic [ref=f28e200]:
+              - paragraph [ref=f28e201]: Get certified for
+              - paragraph [ref=f28e202]: $490
+        - paragraph [ref=f28e204]: HTB COAE is a hands-on certification assessing knowledge gained by a curriculum co-developed with Google on identifying and exploiting vulnerabilities in AI and ML systems. Certification holders demonstrate competency in adversarial machine learning, LLM prompt injection and jailbreaking, LLM output exploitation, AI application and system security, AI defense, and AI privacy. The curriculum aligns with Google's SAIF, the OWASP ML Security Top 10, OWASP Agentic Top 10, and OWASP Top 10 for LLM Applications 2025. Holders can also conduct professional AI red-team assessments and write client-ready reports.
+      - generic [ref=f28e205]:
+        - paragraph [ref=f28e207]:
+          - text: Related Job Role Path
+          - link "AI Red Teamer" [ref=f28e208] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/path/preview/ai-red-teamer
+        - paragraph [ref=f28e212]: Covers 12 Modules
+        - paragraph [ref=f28e214]: Exam Vouchers Required 1 Voucher
+  - contentinfo [ref=f28e215]:
+    - navigation [ref=f28e217]:
+      - link [ref=f28e218] [cursor=pointer]:
+        - /url: https://academy.hackthebox.com
+        - img "HTB Academy Logo" [ref=f28e219]
+    - navigation [ref=f28e222]:
+      - list [ref=f28e223]:
+        - listitem [ref=f28e224]: 2020 - 2026 © HTB Academy
+        - listitem [ref=f28e225]:
+          - link "Privacy Policy" [ref=f28e226] [cursor=pointer]:
+            - /url: https://resources.hackthebox.com/hubfs/Legal/PN.pdf
+        - listitem [ref=f28e227]:
+          - link "User Agreement" [ref=f28e228] [cursor=pointer]:
+            - /url: https://www.hackthebox.com/hubfs/Legal/UA.pdf?hsLang=en
+        - listitem [ref=f28e229]:
+          - link "FAQ" [ref=f28e230] [cursor=pointer]:
+            - /url: https://academy.hackthebox.com/faq

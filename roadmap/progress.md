@@ -23,6 +23,10 @@
 - [x] Bloque 02 — Networking para pentesting (exit gate 2026-07-21: notas 01-04, cheatsheet nmap)
 - [ ] Bloque 03 — Python desde 0 para security tooling
 - [ ] Bloque 04 — Web security y API testing
+  - Evidencia en curso:
+    - [x] TryHackMe — Enumeration & Brute Force (`labs/tryhackme/enumeration-bruteforce.md`)
+    - [x] TryHackMe — CSRF (`labs/tryhackme/csrf.md`)
+    - [x] TryHackMe — XSS (`labs/tryhackme/xss.md` + `notes/06-web-security/01-xss-fundamentos.md`)
 - [ ] Bloque 05 — Metodología, vulnerability assessment y reportes
 - [ ] Bloque 06 — Privilege escalation Linux/Windows
 - [ ] Bloque 07 — Active Directory e internal pentesting

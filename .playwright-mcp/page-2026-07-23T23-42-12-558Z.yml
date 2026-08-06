@@ -1,0 +1,182 @@
+- generic [active] [ref=e1]:
+  - region "Cookie consent banner" [ref=e2]:
+    - paragraph [ref=e3]: We use cookies to ensure you get the best user experience. For more information see our cookie policy.
+    - generic [ref=e4]:
+      - button "Cookie Settings" [ref=e5] [cursor=pointer]
+      - button "Allow All" [ref=e6] [cursor=pointer]
+  - region "Main notifications"
+  - region "Streak notifications"
+  - region "Threat hunting notifications"
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - navigation "Main" [ref=e14]:
+          - link "TryHackMe logo" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img "TryHackMe logo." [ref=e16]
+          - list [ref=e17]:
+            - listitem [ref=e18]:
+              - link "Navigate to Learn page" [ref=e19] [cursor=pointer]:
+                - /url: /hacktivities
+            - listitem [ref=e22]:
+              - button "Toggle dropdown for Practice" [ref=e23] [cursor=pointer]
+            - listitem [ref=e26]:
+              - button "Toggle dropdown for Compete" [ref=e27] [cursor=pointer]
+            - listitem [ref=e30]:
+              - link "Navigate to AI Upskilling page" [ref=e31] [cursor=pointer]:
+                - /url: /aisecurity
+            - listitem [ref=e34]:
+              - link "Navigate to Education page" [ref=e35] [cursor=pointer]:
+                - /url: /classrooms
+            - listitem [ref=e38]:
+              - button "Toggle dropdown for Business" [ref=e39] [cursor=pointer]
+            - listitem [ref=e42]:
+              - link "Navigate to Pricing page" [ref=e43] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e46]:
+              - button "Toggle dropdown for Certifications" [ref=e47] [cursor=pointer]
+        - generic [ref=e52]:
+          - button "Search" [ref=e54] [cursor=pointer]
+          - button "Log In" [ref=e58] [cursor=pointer]
+          - button "Join for FREE" [ref=e59] [cursor=pointer]
+    - generic [ref=e61]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - heading "Learn" [level=1] [ref=e65]
+          - paragraph [ref=e66]: Learn cyber security the fun way - free, interactive, and browser-based. Hack machines, investigate attacks, and build real-world skills through guided, immersive learning for all skill levels.
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - heading "1.3K+" [level=2] [ref=e69]
+              - generic [ref=e70]:
+                - paragraph [ref=e71]: Hands-on
+                - paragraph [ref=e72]: Labs
+            - generic [ref=e73]:
+              - heading "500+" [level=2] [ref=e74]
+              - generic [ref=e75]:
+                - paragraph [ref=e76]: Cyber Security
+                - paragraph [ref=e77]: Challenges
+        - img "learn banner" [ref=e78]
+      - generic [ref=e81]:
+        - tablist [ref=e82]:
+          - tab "Roadmap" [ref=e83] [cursor=pointer]
+          - tab "Paths" [selected] [ref=e86] [cursor=pointer]
+          - tab "Modules" [ref=e89] [cursor=pointer]
+          - tab "Walkthroughs" [ref=e92] [cursor=pointer]
+          - tab "Networks" [ref=e95] [cursor=pointer]
+          - tab "AI Upskilling" [ref=e98] [cursor=pointer]
+          - tab "Live Classes" [ref=e101] [cursor=pointer]
+        - tabpanel "Roadmap"
+        - tabpanel "Paths" [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Cyber Security Learning Paths" [level=2] [ref=e107]
+              - paragraph [ref=e108]: Learn about cyber security and sharpen your skills by following a structured learning path.
+            - generic [ref=e109]:
+              - textbox "Search learning paths..." [ref=e115]
+              - button "click here to choose an option" [ref=e119] [cursor=pointer]:
+                - generic [ref=e120]: Difficulty
+    - contentinfo [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - heading "Learning" [level=3] [ref=e139]
+              - list [ref=e140]:
+                - listitem [ref=e141]:
+                  - link "Hands-on labs" [ref=e142] [cursor=pointer]:
+                    - /url: /hacktivities
+                - listitem [ref=e143]:
+                  - link "For Business" [ref=e144] [cursor=pointer]:
+                    - /url: /business
+                - listitem [ref=e145]:
+                  - link "For Education" [ref=e146] [cursor=pointer]:
+                    - /url: /classrooms
+                - listitem [ref=e147]:
+                  - link "Competitive Hacking" [ref=e148] [cursor=pointer]:
+                    - /url: /games/koth
+                - listitem [ref=e149]:
+                  - link "Certifications" [ref=e150] [cursor=pointer]:
+                    - /url: /certifications
+            - generic [ref=e151]:
+              - heading "Resources" [level=3] [ref=e152]
+              - list [ref=e153]:
+                - listitem [ref=e154]:
+                  - link "About Us" [ref=e155] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e156]:
+                  - link "Newsroom" [ref=e157] [cursor=pointer]:
+                    - /url: /resources/newsroom
+                - listitem [ref=e158]:
+                  - link "Blog" [ref=e159] [cursor=pointer]:
+                    - /url: /resources/blog
+                - listitem [ref=e160]:
+                  - link "Glossary" [ref=e161] [cursor=pointer]:
+                    - /url: /glossary
+                - listitem [ref=e162]:
+                  - link "Work at TryHackMe" [ref=e163] [cursor=pointer]:
+                    - /url: https://careers.tryhackme.com
+                - listitem [ref=e164]:
+                  - link "Careers in Cyber" [ref=e165] [cursor=pointer]:
+                    - /url: /cyber-security-careers
+            - generic [ref=e166]:
+              - heading "Privacy & Legal" [level=3] [ref=e167]
+              - list [ref=e168]:
+                - listitem [ref=e169]:
+                  - link "Privacy Policy" [ref=e170] [cursor=pointer]:
+                    - /url: /legal/privacy-policy
+                - listitem [ref=e171]:
+                  - link "Terms of Use" [ref=e172] [cursor=pointer]:
+                    - /url: /legal/terms-of-use
+                - listitem [ref=e173]:
+                  - link "AI Terms of Use" [ref=e174] [cursor=pointer]:
+                    - /url: /legal/ai-terms-of-use
+                - listitem [ref=e175]:
+                  - link "Acceptable Use Policy" [ref=e176] [cursor=pointer]:
+                    - /url: /legal/acceptable-use-policy
+                - listitem [ref=e177]:
+                  - link "Cookie Policy" [ref=e178] [cursor=pointer]:
+                    - /url: /legal/cookie-policy
+            - generic [ref=e179]:
+              - heading "Get in touch" [level=3] [ref=e180]
+              - list [ref=e181]:
+                - listitem [ref=e182]:
+                  - link "contact us" [ref=e183] [cursor=pointer]:
+                    - /url: /contact
+                    - text: Contact Us
+                - listitem [ref=e184]:
+                  - link "Affiliates" [ref=e185] [cursor=pointer]:
+                    - /url: /affiliates
+                - listitem [ref=e186]:
+                  - link "Student Discount" [ref=e187] [cursor=pointer]:
+                    - /url: https://www.studentbeans.com/en-gb/uk/beansid-connect/hosted/tryhackme
+            - generic [ref=e188]:
+              - heading "Shop" [level=3] [ref=e189]
+              - list [ref=e190]:
+                - listitem [ref=e191]:
+                  - link "Swag Shop" [ref=e192] [cursor=pointer]:
+                    - /url: https://store.tryhackme.com
+          - generic [ref=e193]:
+            - paragraph [ref=e197]: We're a gamified, hands-on cyber security training platform that you can access through your browser.
+            - generic [ref=e198]: 128 City Road, London, United Kingdom, EC1V 2NX
+        - generic [ref=e199]:
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: Copyright TryHackMe 2018-2026
+            - generic [ref=e202]:
+              - img "ISO 27001" [ref=e203]
+              - paragraph [ref=e209]: ISO27001 Compliant
+          - generic [ref=e210]:
+            - link "Follow us on X" [ref=e211] [cursor=pointer]:
+              - /url: https://twitter.com/tryhackme
+            - link "Follow us on Linkedin" [ref=e216] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/tryhackme/
+            - link "Join Discord" [ref=e219] [cursor=pointer]:
+              - /url: https://discord.com/invite/tryhackme
+            - link "Follow us on Facebook" [ref=e222] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/Tryhackme/100069557747714/
+            - link "Follow us on our Youtube channel" [ref=e225] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCRnWD3BsY5Co2MMETB7lHQw
+            - link "Follow us on Instagram" [ref=e228] [cursor=pointer]:
+              - /url: https://instagram.com/realtryhackme
+            - link "Follow us on Pinterest" [ref=e231] [cursor=pointer]:
+              - /url: https://www.pinterest.co.uk/RealTryHackMe/
+  - alert [ref=e234]

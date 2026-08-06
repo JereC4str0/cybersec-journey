@@ -1,0 +1,291 @@
+- generic [active] [ref=f7e1]:
+  - region "Cookie consent banner" [ref=f7e2]:
+    - paragraph [ref=f7e3]: We use cookies to ensure you get the best user experience. For more information see our cookie policy.
+    - generic [ref=f7e4]:
+      - button "Cookie Settings" [ref=f7e5] [cursor=pointer]
+      - button "Allow All" [ref=f7e6] [cursor=pointer]
+  - region "Main notifications"
+  - region "Streak notifications"
+  - region "Threat hunting notifications"
+  - generic [ref=f7e10]:
+    - banner [ref=f7e11]:
+      - generic [ref=f7e12]:
+        - navigation "Main" [ref=f7e14]:
+          - link "TryHackMe logo" [ref=f7e15] [cursor=pointer]:
+            - /url: /
+            - img "TryHackMe logo." [ref=f7e16]
+          - list [ref=f7e17]:
+            - listitem [ref=f7e18]:
+              - link "Navigate to Learn page" [ref=f7e19] [cursor=pointer]:
+                - /url: /hacktivities
+            - listitem [ref=f7e22]:
+              - button "Toggle dropdown for Practice" [ref=f7e23] [cursor=pointer]
+            - listitem [ref=f7e26]:
+              - button "Toggle dropdown for Compete" [ref=f7e27] [cursor=pointer]
+            - listitem [ref=f7e30]:
+              - link "Navigate to AI Upskilling page" [ref=f7e31] [cursor=pointer]:
+                - /url: /aisecurity
+            - listitem [ref=f7e34]:
+              - link "Navigate to Education page" [ref=f7e35] [cursor=pointer]:
+                - /url: /classrooms
+            - listitem [ref=f7e38]:
+              - button "Toggle dropdown for Business" [ref=f7e39] [cursor=pointer]
+            - listitem [ref=f7e42]:
+              - link "Navigate to Pricing page" [ref=f7e43] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f7e46]:
+              - button "Toggle dropdown for Certifications" [ref=f7e47] [cursor=pointer]
+        - generic [ref=f7e52]:
+          - button "Search" [ref=f7e54] [cursor=pointer]
+          - button "Log In" [ref=f7e58] [cursor=pointer]
+          - button "Join for FREE" [ref=f7e59] [cursor=pointer]
+    - generic [ref=f7e60]:
+      - generic [ref=f7e66]:
+        - paragraph [ref=f7e67]: Learning path
+        - heading "Web Application Pentesting" [level=1] [ref=f7e68]
+        - paragraph [ref=f7e69]: Learn about the various vulnerabilities that can exist in web application and how to perform security assessments of web applications.
+        - generic [ref=f7e70]:
+          - generic [ref=f7e71]:
+            - generic [ref=f7e72]: Modules
+            - generic [ref=f7e73]: "6"
+          - generic [ref=f7e77]:
+            - generic [ref=f7e78]: Hands-on labs
+            - generic [ref=f7e79]: "34"
+          - generic [ref=f7e83]:
+            - generic [ref=f7e84]: Estimated time
+            - generic [ref=f7e85]: 36h 53m
+          - generic [ref=f7e89]:
+            - generic [ref=f7e90]: Difficulty level
+            - paragraph [ref=f7e98]: intermediate
+        - button "Enroll in path" [ref=f7e100] [cursor=pointer]
+      - generic [ref=f7e107]:
+        - generic [ref=f7e108]:
+          - generic [ref=f7e109]:
+            - img "Path Web Application Pentesting" [ref=f7e110]
+            - generic [ref=f7e112]:
+              - paragraph [ref=f7e113]: Learn how to perform security assessments of web applications.
+              - list [ref=f7e114]:
+                - listitem [ref=f7e115]: Learn about common web vulnerabilities
+                - listitem [ref=f7e116]: Understand web authentication mechanisms
+                - listitem [ref=f7e117]: Perform server- and client-side exploits
+                - listitem [ref=f7e118]: Understand the remedies for web vulnerabilities
+          - generic [ref=f7e119]:
+            - heading "Certificate of Completion" [level=5] [ref=f7e120]
+            - generic [ref=f7e121]:
+              - img "Example learning path completion certificate" [ref=f7e122]
+              - paragraph [ref=f7e123]: Complete this learning path to develop your skills and earn a certificate of completion
+          - generic [ref=f7e124]:
+            - img "WEB1 Professional Certification completion certificate" [ref=f7e125]
+            - generic [ref=f7e126]:
+              - heading "WEB1 Professional Certification" [level=5] [ref=f7e127]
+              - paragraph [ref=f7e128]: Prove you can find, exploit, and report real web vulnerabilities across blackbox, whitebox, and greybox access.
+              - button "Learn more" [ref=f7e129] [cursor=pointer]
+        - generic [ref=f7e130]:
+          - generic [ref=f7e131]:
+            - heading "Introduction" [level=2] [ref=f7e132]
+            - generic [ref=f7e133]:
+              - paragraph [ref=f7e134]: "Every day you interact with web applications. Just reading the information here means you are using a web application! Understanding how to test web applications is a critical skill required by almost every pentester! Even if you want to specialise in testing other systems like networks or cloud, a solid baseline in web application testing will greatly assist you on this journey. This path covers key topics that you need to understand for web application testing, such as:"
+              - list [ref=f7e135]:
+                - listitem [ref=f7e136]: Authentication Attacks
+                - listitem [ref=f7e137]: Injection Attacks
+                - listitem [ref=f7e138]: Advanced Server-Side Attacks
+                - listitem [ref=f7e139]: Advanced Client-Side Attacks
+                - listitem [ref=f7e140]: HTTP Request Smuggling
+              - paragraph [ref=f7e141]: Completing this learning path will allow you to learn and become a great web application penetration tester.
+          - generic [ref=f7e142]:
+            - paragraph [ref=f7e143]: Section 1
+            - heading "Authentication" [level=2] [ref=f7e145]
+            - link "Enumeration & Brute Force" [ref=f7e146] [cursor=pointer]:
+              - /url: /room/enumerationbruteforce
+            - link "Session Management" [ref=f7e150] [cursor=pointer]:
+              - /url: /room/sessionmanagement
+            - link "JWT Security" [ref=f7e154] [cursor=pointer]:
+              - /url: /room/jwtsecurity
+            - link "OAuth Vulnerabilities" [ref=f7e158] [cursor=pointer]:
+              - /url: /room/oauthvulnerabilities
+            - link "Multi-Factor Authentication" [ref=f7e162] [cursor=pointer]:
+              - /url: /room/multifactorauthentications
+            - link "Hammer" [ref=f7e166] [cursor=pointer]:
+              - /url: /room/hammer
+            - generic [ref=f7e170]: Topic Rewind Recap
+          - generic [ref=f7e176]:
+            - paragraph [ref=f7e177]: Section 2
+            - heading "Injection Attacks" [level=2] [ref=f7e179]
+            - link "Advanced SQL Injection" [ref=f7e180] [cursor=pointer]:
+              - /url: /room/advancedsqlinjection
+            - link "NoSQL Injection" [ref=f7e184] [cursor=pointer]:
+              - /url: /room/nosqlinjectiontutorial
+            - link "XXE Injection" [ref=f7e188] [cursor=pointer]:
+              - /url: /room/xxeinjection
+            - link "Server-side Template Injection" [ref=f7e192] [cursor=pointer]:
+              - /url: /room/serversidetemplateinjection
+            - link "LDAP Injection" [ref=f7e196] [cursor=pointer]:
+              - /url: /room/ldapinjection
+            - link "ORM Injection" [ref=f7e200] [cursor=pointer]:
+              - /url: /room/orminjection
+            - link "Injectics" [ref=f7e204] [cursor=pointer]:
+              - /url: /room/injectics
+            - generic [ref=f7e208]: Topic Rewind Recap
+          - generic [ref=f7e214]:
+            - paragraph [ref=f7e215]: Section 3
+            - heading "Advanced Server-Side Attacks" [level=2] [ref=f7e217]
+            - link "Insecure Deserialisation" [ref=f7e218] [cursor=pointer]:
+              - /url: /room/insecuredeserialisation
+            - link "SSRF" [ref=f7e222] [cursor=pointer]:
+              - /url: /room/ssrfhr
+            - link "File Inclusion, Path Traversal" [ref=f7e226] [cursor=pointer]:
+              - /url: /room/filepathtraversal
+            - link "Race Conditions" [ref=f7e230] [cursor=pointer]:
+              - /url: /room/raceconditionsattacks
+            - link "Prototype Pollution" [ref=f7e234] [cursor=pointer]:
+              - /url: /room/prototypepollution
+            - link "Include" [ref=f7e238] [cursor=pointer]:
+              - /url: /room/include
+            - generic [ref=f7e242]: Topic Rewind Recap
+          - generic [ref=f7e248]:
+            - paragraph [ref=f7e249]: Section 4
+            - heading "Advanced Client-Side Attacks" [level=2] [ref=f7e251]
+            - link "XSS" [ref=f7e252] [cursor=pointer]:
+              - /url: /room/axss
+            - link "CSRF" [ref=f7e256] [cursor=pointer]:
+              - /url: /room/csrfV2
+            - link "DOM-Based Attacks" [ref=f7e260] [cursor=pointer]:
+              - /url: /room/dombasedattacks
+            - link "CORS & SOP" [ref=f7e264] [cursor=pointer]:
+              - /url: /room/corsandsop
+            - link "Whats Your Name?" [ref=f7e268] [cursor=pointer]:
+              - /url: /room/whatsyourname
+            - generic [ref=f7e272]: Topic Rewind Recap
+          - generic [ref=f7e278]:
+            - paragraph [ref=f7e279]: Section 5
+            - heading "HTTP Request Smuggling" [level=2] [ref=f7e281]
+            - link "HTTP Request Smuggling" [ref=f7e282] [cursor=pointer]:
+              - /url: /room/httprequestsmuggling
+            - link "HTTP/2 Request Smuggling" [ref=f7e286] [cursor=pointer]:
+              - /url: /room/http2requestsmuggling
+            - 'link "Request Smuggling: WebSockets" [ref=f7e290] [cursor=pointer]':
+              - /url: /room/wsrequestsmuggling
+            - link "HTTP Browser Desync" [ref=f7e294] [cursor=pointer]:
+              - /url: /room/requestsmugglingbrowserdesync
+            - link "El Bandito" [ref=f7e298] [cursor=pointer]:
+              - /url: /room/elbandito
+            - generic [ref=f7e302]: Topic Rewind Recap
+          - generic [ref=f7e308]:
+            - paragraph [ref=f7e309]: Section 6
+            - heading "Web Frameworks" [level=2] [ref=f7e311]
+            - 'link "Web Frameworks: Code Review" [ref=f7e312] [cursor=pointer]':
+              - /url: /room/webframeworkscodereview
+            - 'link "Web Frameworks: Java" [ref=f7e316] [cursor=pointer]':
+              - /url: /room/webframeworksjava
+            - 'link "Web Frameworks: Python" [ref=f7e320] [cursor=pointer]':
+              - /url: /room/webframeworkspython
+            - 'link "Web Frameworks: .NET" [ref=f7e324] [cursor=pointer]':
+              - /url: /room/webframeworksnet
+            - 'link "Source Code Review: PHP" [ref=f7e328] [cursor=pointer]':
+              - /url: /room/sourcecodereviewsphp
+            - generic [ref=f7e332]: Topic Rewind Recap
+    - contentinfo [ref=f7e339]:
+      - generic [ref=f7e340]:
+        - generic [ref=f7e341]:
+          - generic [ref=f7e342]:
+            - generic [ref=f7e343]:
+              - heading "Learning" [level=3] [ref=f7e344]
+              - list [ref=f7e345]:
+                - listitem [ref=f7e346]:
+                  - link "Hands-on labs" [ref=f7e347] [cursor=pointer]:
+                    - /url: /hacktivities
+                - listitem [ref=f7e348]:
+                  - link "For Business" [ref=f7e349] [cursor=pointer]:
+                    - /url: /business
+                - listitem [ref=f7e350]:
+                  - link "For Education" [ref=f7e351] [cursor=pointer]:
+                    - /url: /classrooms
+                - listitem [ref=f7e352]:
+                  - link "Competitive Hacking" [ref=f7e353] [cursor=pointer]:
+                    - /url: /games/koth
+                - listitem [ref=f7e354]:
+                  - link "Certifications" [ref=f7e355] [cursor=pointer]:
+                    - /url: /certifications
+            - generic [ref=f7e356]:
+              - heading "Resources" [level=3] [ref=f7e357]
+              - list [ref=f7e358]:
+                - listitem [ref=f7e359]:
+                  - link "About Us" [ref=f7e360] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f7e361]:
+                  - link "Newsroom" [ref=f7e362] [cursor=pointer]:
+                    - /url: /resources/newsroom
+                - listitem [ref=f7e363]:
+                  - link "Blog" [ref=f7e364] [cursor=pointer]:
+                    - /url: /resources/blog
+                - listitem [ref=f7e365]:
+                  - link "Glossary" [ref=f7e366] [cursor=pointer]:
+                    - /url: /glossary
+                - listitem [ref=f7e367]:
+                  - link "Work at TryHackMe" [ref=f7e368] [cursor=pointer]:
+                    - /url: https://careers.tryhackme.com
+                - listitem [ref=f7e369]:
+                  - link "Careers in Cyber" [ref=f7e370] [cursor=pointer]:
+                    - /url: /cyber-security-careers
+            - generic [ref=f7e371]:
+              - heading "Privacy & Legal" [level=3] [ref=f7e372]
+              - list [ref=f7e373]:
+                - listitem [ref=f7e374]:
+                  - link "Privacy Policy" [ref=f7e375] [cursor=pointer]:
+                    - /url: /legal/privacy-policy
+                - listitem [ref=f7e376]:
+                  - link "Terms of Use" [ref=f7e377] [cursor=pointer]:
+                    - /url: /legal/terms-of-use
+                - listitem [ref=f7e378]:
+                  - link "AI Terms of Use" [ref=f7e379] [cursor=pointer]:
+                    - /url: /legal/ai-terms-of-use
+                - listitem [ref=f7e380]:
+                  - link "Acceptable Use Policy" [ref=f7e381] [cursor=pointer]:
+                    - /url: /legal/acceptable-use-policy
+                - listitem [ref=f7e382]:
+                  - link "Cookie Policy" [ref=f7e383] [cursor=pointer]:
+                    - /url: /legal/cookie-policy
+            - generic [ref=f7e384]:
+              - heading "Get in touch" [level=3] [ref=f7e385]
+              - list [ref=f7e386]:
+                - listitem [ref=f7e387]:
+                  - link "contact us" [ref=f7e388] [cursor=pointer]:
+                    - /url: /contact
+                    - text: Contact Us
+                - listitem [ref=f7e389]:
+                  - link "Affiliates" [ref=f7e390] [cursor=pointer]:
+                    - /url: /affiliates
+                - listitem [ref=f7e391]:
+                  - link "Student Discount" [ref=f7e392] [cursor=pointer]:
+                    - /url: https://www.studentbeans.com/en-gb/uk/beansid-connect/hosted/tryhackme
+            - generic [ref=f7e393]:
+              - heading "Shop" [level=3] [ref=f7e394]
+              - list [ref=f7e395]:
+                - listitem [ref=f7e396]:
+                  - link "Swag Shop" [ref=f7e397] [cursor=pointer]:
+                    - /url: https://store.tryhackme.com
+          - generic [ref=f7e398]:
+            - paragraph [ref=f7e402]: We're a gamified, hands-on cyber security training platform that you can access through your browser.
+            - generic [ref=f7e403]: 128 City Road, London, United Kingdom, EC1V 2NX
+        - generic [ref=f7e404]:
+          - generic [ref=f7e405]:
+            - paragraph [ref=f7e406]: Copyright TryHackMe 2018-2026
+            - generic [ref=f7e407]:
+              - img "ISO 27001" [ref=f7e408]
+              - paragraph [ref=f7e414]: ISO27001 Compliant
+          - generic [ref=f7e415]:
+            - link "Follow us on X" [ref=f7e416] [cursor=pointer]:
+              - /url: https://twitter.com/tryhackme
+            - link "Follow us on Linkedin" [ref=f7e421] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/tryhackme/
+            - link "Join Discord" [ref=f7e424] [cursor=pointer]:
+              - /url: https://discord.com/invite/tryhackme
+            - link "Follow us on Facebook" [ref=f7e427] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/Tryhackme/100069557747714/
+            - link "Follow us on our Youtube channel" [ref=f7e430] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCRnWD3BsY5Co2MMETB7lHQw
+            - link "Follow us on Instagram" [ref=f7e433] [cursor=pointer]:
+              - /url: https://instagram.com/realtryhackme
+            - link "Follow us on Pinterest" [ref=f7e436] [cursor=pointer]:
+              - /url: https://www.pinterest.co.uk/RealTryHackMe/
+  - alert [ref=f7e439]
