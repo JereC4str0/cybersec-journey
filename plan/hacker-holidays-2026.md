@@ -18,7 +18,7 @@
 |---|---|---|---|
 | 1 | The Concierge Knows Too Much | ✅ | labs/tryhackme/hacker-holidays-the-concierge-knows-too-much.md |
 | 2 | Room 404 | ✅ | labs/tryhackme/hacker-holidays-room-404.md |
-| 3 | Complimentary | Pendiente | |
+| 3 | Complimentary | ✅ | labs/tryhackme/hacker-holidays-complimentary.md |
 | 4 | Packed Light | Pendiente | |
 | 5 | Beach Bar | Pendiente | |
 | 6 | Overheard at Breakfast | Pendiente | |

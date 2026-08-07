@@ -32,6 +32,7 @@
 - [x] Hacker Holidays 2026 — The Byte Lotus (evento free)
   - [x] Room 01 — The Concierge Knows Too Much (`labs/tryhackme/hacker-holidays-the-concierge-knows-too-much.md`)
   - [x] Room 02 — Room 404 (`labs/tryhackme/hacker-holidays-room-404.md`)
+  - [x] Room 03 — Complimentary (`labs/tryhackme/hacker-holidays-complimentary.md`)
 - [ ] Bloque 05 — Metodología, vulnerability assessment y reportes
 - [ ] Bloque 06 — Privilege escalation Linux/Windows
 - [ ] Bloque 07 — Active Directory e internal pentesting
