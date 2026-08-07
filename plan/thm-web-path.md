@@ -12,6 +12,7 @@
 || 2026-07-28 | ✅ CSRF | labs/tryhackme/csrf.md |
 || 2026-08-06 | ✅ XSS | labs/tryhackme/xss.md |
 || 2026-08-06 | ✅ Advanced SQL Injection | labs/tryhackme/advanced-sql-injection.md |
+|| 2026-08-07 | ✅ NoSQL Injection | labs/tryhackme/nosql-injection.md |
 
 ## Mapa FREE / LOCK por módulo
 
