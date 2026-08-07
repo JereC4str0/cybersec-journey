@@ -29,6 +29,8 @@
     - [x] TryHackMe — XSS (`labs/tryhackme/xss.md` + `notes/06-web-security/01-xss-fundamentos.md`)
     - [x] TryHackMe — Advanced SQL Injection (`labs/tryhackme/advanced-sql-injection.md`)
     - [x] TryHackMe — NoSQL Injection (`labs/tryhackme/nosql-injection.md` + `notes/06-web-security/02-nosql-injection.md`)
+- [x] Hacker Holidays 2026 — The Byte Lotus (evento free)
+  - [x] Room 01 — The Concierge Knows Too Much (`labs/tryhackme/hacker-holidays-the-concierge-knows-too-much.md`)
 - [ ] Bloque 05 — Metodología, vulnerability assessment y reportes
 - [ ] Bloque 06 — Privilege escalation Linux/Windows
 - [ ] Bloque 07 — Active Directory e internal pentesting
