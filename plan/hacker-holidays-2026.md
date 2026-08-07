@@ -20,7 +20,7 @@
 | 2 | Room 404 | ✅ | labs/tryhackme/hacker-holidays-room-404.md |
 | 3 | Complimentary | ✅ | labs/tryhackme/hacker-holidays-complimentary.md |
 | 4 | Packed Light | ✅ | labs/tryhackme/hacker-holidays-packed-light.md |
-| 5 | Beach Bar | Pendiente | |
+| 5 | Beach Bar | ✅ | labs/tryhackme/hacker-holidays-beach-bar.md |
 | 6 | Overheard at Breakfast | Pendiente | |
 | 7 | Do Not Disturb | Pendiente | |
 | 8 | Towel on the Sunbed | Pendiente | |

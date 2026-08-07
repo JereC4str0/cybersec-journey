@@ -34,6 +34,7 @@
   - [x] Room 02 — Room 404 (`labs/tryhackme/hacker-holidays-room-404.md`)
   - [x] Room 03 — Complimentary (`labs/tryhackme/hacker-holidays-complimentary.md`)
   - [x] Room 04 — Packed Light (`labs/tryhackme/hacker-holidays-packed-light.md`)
+  - [x] Room 05 — Beach Bar (`labs/tryhackme/hacker-holidays-beach-bar.md`)
 - [ ] Bloque 05 — Metodología, vulnerability assessment y reportes
 - [ ] Bloque 06 — Privilege escalation Linux/Windows
 - [ ] Bloque 07 — Active Directory e internal pentesting
